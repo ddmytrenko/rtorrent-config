@@ -1,0 +1,14 @@
+# Lock files
+*.lock
+
+# OSX
+.DS_Store
+
+# Temporary files
+*~
+*.bak
+*.swp
+*.tmp
+
+# Windows
+Thumbs.db
