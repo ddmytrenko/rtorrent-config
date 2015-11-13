@@ -32,14 +32,14 @@ download_rate = 0
 upload_rate = 5120
 
 # Torrents directory
-directory = ~/downloads/torrents/
+directory = /home/ddmytrenko/downloads/torrents/
 
 # Torrents settings/state directory
-session = ~/downloads/torrents/.session/
+session = /home/ddmytrenko/downloads/torrents/.session/
 
 # rTorrent will check next directory every 5 seconds for new torrent and will start downloading
 # them automatically
-schedule = watch_directory,5,5,load_start=~/downloads/torrents/new/*.torrent
+schedule = watch_directory,5,5,load_start=/home/ddmytrenko/downloads/torrents/new/*.torrent
 
 # The following schedule option is intended to stop rTorrent from downloading data when disk space
 # is low
